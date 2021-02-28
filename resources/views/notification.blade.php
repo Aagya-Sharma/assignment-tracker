@@ -24,6 +24,13 @@
     color: #1A1A2E;
     text-transform:capitalize ;
     }
+    .noti-body{
+    list-style: none;
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 30px;
+    
+}
 </style>
 </head>
  <body>
@@ -34,15 +41,22 @@
     @foreach(Auth::user()->notifications as $notification)
 
 @if(Auth::user()->roles =='admin')
-<ul class="assign-body">
-                <li><a href=" {{ route('assignmentdetails', $assignment->id) }}">{{ $assignment->title }}</a></li>
-                <li>{{ $assignment->date}}</li>
+<ul class="noti-body" >
+               
+<li>{{trim(json_encode($notification->data['createdUser']['name']), ' " ' ) }} has just registered !!</li>
+
                 <hr>
             </ul>
-<li>{{trim(json_encode($notification->data['createdUser']['name']), ' " ' ) }} has just registered !!</li>
+<!-- <li>{{trim(json_encode($notification->data['createdUser']['name']), ' " ' ) }} has just registered !!</li> -->
 @elseif(Auth::user()->roles =='student')
 @if(Auth::user()->class_id == trim(json_encode($notification->data['createdAssignment']['group_id']), ' " '  ))
+<ul class="noti-body" >
+              
 <li>Assignment titled {{trim(json_encode($notification->data['createdAssignment']['title']), ' " ' )}} has been asssigned !! </li>
+
+                <hr>
+            </ul>
+<!-- <li>Assignment titled {{trim(json_encode($notification->data['createdAssignment']['title']), ' " ' )}} has been asssigned !! </li> -->
 @endif
 @endif
 
