@@ -1,0 +1,249 @@
+html
+{
+overflow: hidden;
+}
+body{
+    margin: 0;
+    color:black;
+    background-color:  #2F303A;
+}
+
+a{
+    text-decoration:none;
+}
+h1{
+  margin-left:10%;
+}
+table, th, td {
+margin-top: 30px;
+font-size: 25px;
+  padding: 5px;
+  text-align: left;
+
+}
+td{
+  border-bottom: 1px solid #000;
+  font-size: 20px;
+  text-align: left;
+}
+table{
+  margin-left:10%;
+  width:50%;
+}
+.first{
+      display: flex;
+      width:100%;
+      justify-content: space-between;
+}
+.firsts{
+  display: flex;
+}
+.save{
+  display: flex;
+  width: 80px;
+  padding: 10px;
+  font-size: 14px;
+  border:3px solid rgb(207, 204, 204);
+  background-color: #1A1A2E;
+  color:white;  
+}
+select{
+  width: 90px;
+  padding: 7px;
+  height:50px;
+  margin:5px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  /* resize: vertical; */
+  display: block;
+  }
+.delete{
+  display: flex;
+  width: 80px;
+  padding: 10px;
+  font-size: 14px;
+  border:3px solid rgb(207, 204, 204);
+  background-color: #1A1A2E;
+  color:white;  
+}
+.second{
+    width: 150px;
+    padding: 13px;
+    font-size: 15px;
+    border:3px solid rgb(207, 204, 204);
+    background-color: #1A1A2E;
+    color:white;
+    margin-right:10px;
+      }
+@media screen and (max-width: 840px){
+h1{
+  font-size: 23px;
+}
+.second{
+  width: 100px;
+  padding: 10px;
+  font-size: 13px;
+  margin-left: 10px;
+    }
+    .save{
+      width: 70px;
+      padding: 10px;
+      font-size: 14px;
+    }
+    .delete{
+      width: 70px;
+      padding: 10px;
+      font-size: 14px;
+
+    }
+      table{
+        margin-left:5%;
+        width:40%;
+      }
+      td{
+        font-size: 15px;
+      }
+      th{
+        font-size: 18px;
+        
+      }
+
+
+}
+@media screen and (max-width: 600px){
+  h1{
+    font-size: 23px;
+    margin-left: 2px;
+  }
+  .second{
+    width: 90px;
+    padding: 10px;
+    font-size: 11px;
+      }
+      .save{
+        width: 60px;
+        padding: 8px;
+        font-size: 11px;
+      }
+      .delete{
+        width: 60px;
+        padding: 8px;
+        font-size: 11px;
+  
+      }
+        table{
+          margin-left:0%;
+          width:30%;
+        }
+        td{
+          font-size: 14px;
+        }
+        th{
+          font-size: 15px;
+          
+        }
+  }
+  @media screen and (max-width: 500px){
+    h1{
+      font-size: 20px;
+    }
+    .second{
+      width: 90px;
+      padding: 10px;
+      font-size: 11px;
+        }
+        .save{
+          width: 50px;
+          padding: 5px;
+          font-size: 10px;
+        }
+        .delete{
+          width: 50px;
+          padding: 5px;
+          font-size: 10px;
+    
+        }
+          table{
+            margin-left:0%;
+            width:20%;
+          }
+          td{
+            font-size: 12px;
+          }
+          th{
+            font-size: 12px;
+            
+          }
+    }
+    @media screen and (max-width: 445px){
+      h1{
+        font-size: 21px;
+      }
+      .second{
+        width: 90px;
+        padding: 10px;
+        font-size: 10px;
+          }
+          .save{
+            width: 50px;
+            padding: 5px;
+            font-size: 10px;
+          }
+          .delete{
+            width: 50px;
+            padding: 5px;
+            font-size: 10px;
+          }
+           
+            td{
+            font-size: 12px;
+            text-align: left;
+            border-bottom: 0px solid #000;
+
+
+            }
+            th{
+              font-size: 12px;
+            text-align: left;
+            }
+            .firsts{
+              display:inherit;
+            }
+
+      }
+      @media screen and (max-width: 375px){
+        h1{
+          font-size: 15px;
+        }
+        .second{
+          width: 80px;
+          padding: 9px;
+          font-size: 9px;
+            }
+            .save{
+            width: 35px;
+              padding: 0px;
+              font-size: 10px;
+            }
+            .delete{
+              width: 35px;
+              padding: 0px;
+              font-size: 9px;
+            }
+             
+              td{
+              font-size: 10px;
+              text-align: left;
+              border-bottom: 0px solid #000;
+  
+  
+              }
+              th{
+                font-size: 10px;
+              text-align: left;
+              }
+              .firsts{
+                display:inherit;
+              }
+  
+        }

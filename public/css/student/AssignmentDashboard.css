@@ -1,0 +1,283 @@
+
+        hr{
+        width:1000px;
+        }
+        .assign-main li
+        {
+          list-style: none;
+          display: inline-block;
+          margin-top: 20px;
+          color: #1A1A2E;
+
+         
+          
+        }
+        .assign-body{
+            list-style: none;
+            margin-left: 50px;
+            font-size: 20px;
+            margin-top: 30px;
+
+          }
+          .assign-head{
+            font-size: 45px;
+            font-weight: normal;
+            font-family: Helvetica, Arial, sans-serif;
+            color: #1A1A2E;
+           
+            
+          }
+          .AddNew{
+            background: #227EC0;
+              color: #FFFCFC;
+              
+              padding: 13px;
+              text-decoration: none;
+              border: 1px solid #ccc;
+              border-radius: 10px;
+              border-color: black;
+              font-weight: normal;
+              font-size: 25px;
+              font-family: Helvetica, Arial, sans-serif;
+              margin-left: 720px;
+             
+          }
+          hr{
+            margin-right:600px;
+          }
+          .assignment-detail-body{
+            list-style: none;
+            margin-left: 9px;
+            font-size: 23px;
+            margin-top: 30px;
+          }
+          .assign-submit{
+            background: #227EC0;
+            color: #FFFCFC;
+            
+            padding: 5px;
+            text-decoration: none;
+            border: 1px solid #ccc;
+            border-radius: 9px;
+            border-color: black;
+            
+            font-weight: normal;
+            font-size: 17px;
+            font-family: Helvetica, Arial, sans-serif;
+            margin-left: 50px;
+            margin-top: 10px;
+          }
+          .attach{
+            margin-left: 40px;
+            font-size: 23px;
+            font-family: Helvetica, Arial, sans-serif;
+          }
+          .work{
+            margin-right: 900px;
+            margin-left: 50px;
+            border-radius: 4px;
+            border-color: black;
+            border: 1px solid #ccc;
+            padding: 10px;
+          }
+          .resource-body{
+            position: absolute;
+            left: 1000px;
+            right: 94px;
+            top: 130px;
+            bottom: 25px;
+            background: #171E23;
+            border: 1px solid #000000;
+            box-sizing: border-box;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 24px;
+            text-align: center; 
+            }
+            .file{
+              margin-left: 50px;
+            }
+             
+            .list li{
+              display: inline-block;
+             
+             
+            }
+            .space{
+            width: 10vh;
+            }
+            table{
+                width: 45%;
+                text-align: left;
+                border-spacing: 5px;
+                background: rgba(196, 196, 196, 0.21);
+                font-family: Helvetica, Arial, sans-serif;
+               
+               
+              }
+              table, th, td {
+                border: 1px solid black;
+              margin-left: 50px;
+                border-collapse: collapse;
+              padding: 6px;
+              }
+              tbody tr{
+                height: 60px;
+              }
+            
+
+.assign-main li
+{
+  list-style: none;
+  display: inline-block;
+  margin-top: 20px;
+ 
+  
+}
+ 
+.assign-body{
+  list-style: none;
+  margin-left: 50px;
+  font-size: 20px;
+  margin-top: 30px;
+  color:black;
+}
+.assign-head{
+  font-size: 45px;
+  font-weight: normal;
+  font-family: Helvetica, Arial, sans-serif;
+  color: whitesmoke;
+}
+.rec-box{
+    position: absolute;
+left: 80px;
+right: 75px;
+top: 100px;
+bottom: 160px;
+background:white;
+border: 1px solid #000000;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 24px;
+}
+.small-box{
+margin-top: 20px;
+width: 1000px;
+height: 50px;
+}
+
+.checkbox
+{
+    float: right;
+}
+a{
+  text-decoration: none;
+}
+@media screen and (max-width: 1252px){
+
+.small-box{
+  margin-top: 20px;
+  width: 800px;
+  height: 50px;
+  }
+  .assign-head{
+    font-size: 40px;
+    
+  }
+}
+@media screen and (max-width: 1190px){
+
+  .small-box{
+    width: 750px;
+    }
+    .assign-head{
+      font-size: 37px;
+      
+    }
+  }
+  @media screen and (max-width: 1130px){
+
+    .small-box{
+      width: 700px;
+      }
+      .assign-head{
+        font-size: 35px;
+        
+      }
+    }
+    @media screen and (max-width: 1070px){
+
+      .small-box{
+        width: 650px;
+        }
+        .assign-head{
+          font-size: 30px;
+          
+        }
+      }
+      @media screen and (max-width: 1010px){
+
+        .small-box{
+          width: 600px;
+          }
+          .assign-head{
+            font-size: 28px;
+            
+          }
+        }
+        @media screen and (max-width: 950px){
+
+          .small-box{
+            width: 550px;
+            }
+            .assign-head{
+              font-size: 26px;
+              
+            }
+          }@media screen and (max-width: 850px){
+
+            .small-box{
+              width: 500px;
+              }
+              .assign-head{
+                font-size: 24px;
+                
+              }
+            }@media screen and (max-width: 800px){
+
+              .small-box{
+                width: 400px;
+                }
+                .assign-head{
+                  font-size: 23px;
+                  
+                }
+              }
+              @media screen and (max-width: 670px){
+
+                .small-box{
+                  width: 300px;
+                  }
+                  .assign-head{
+                    font-size: 22px;
+                    
+                  }
+                }@media screen and (max-width: 525px){
+
+                  .small-box{
+                    width: 200px;
+                    }
+                    .assign-head{
+                      font-size: 20px;
+                      
+                    }
+                  }
+                  @media screen and (max-width: 410px){
+
+                    .small-box{
+                      width: 130px;
+                      }
+                      .assign-head{
+                        font-size: 18px;
+                        
+                      }
+                    }

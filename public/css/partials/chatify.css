@@ -1,0 +1,199 @@
+html
+{
+overflow: hidden;
+}
+body{
+    margin: 0;
+    color: white;
+    background-color:  #2F303A;
+}
+#col-1 {
+    position: fixed;
+    width: 25%;
+    left:0;
+    height: 100%;
+    background-color: #2F303A;
+
+  }
+
+  #col-2 {
+    position: fixed;
+    width: 75%;
+    top:0cm;
+    left:25%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100%;
+    background-color:#90a6ba;
+    color: #1A1A2E;
+  }
+  .body{
+    background-color:  #2F303A;
+    font-family: Helvetica, Arial, sans-serif;
+
+
+       }
+  .profile-photo{
+      position:relative;
+      top:10px;
+      left:15px;
+      width:150px;
+      height:150px;
+      overflow:hidden;
+      border-radius:50%;
+
+  }
+  .profile-photo img{
+      width:100%;
+      height:auto;
+  }
+  .profile-name{
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    left: 200px;
+    top: 160px;
+    /* font-family: Roboto; */
+    font-size: 25px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+  }
+  a{
+      text-decoration:none;
+  }
+  .notifications{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    top: 247px;
+    background-color: #2F303A;
+
+  }
+.button-icon{
+    position: relative;
+    left: 20px;
+    top:20px;
+    align-content: center;
+    
+}
+
+ 
+  .button-name{
+    position: relative;
+    font-size: 20px;
+    bottom: 10px;
+    left: 100px;
+    color: #FFFFFF;
+    
+
+  }
+  .button-name:hover
+  {
+    color:#1A1A2E;
+    
+
+
+  }
+  .button:hover
+   {
+    color:#1A1A2E;
+    width:380px; 
+    margin-left: 20px;
+    background-color: #90a6ba;
+    }
+  
+  .assignments{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    top: 315px;
+    background-color: #2F303A;
+   
+  }
+  .chats{
+    
+        position: absolute;
+        width: 100%;
+        height: 70px;
+        left: 0px;
+        top: 385px;
+        background-color: #2F303A;
+ 
+      
+  }
+  .users{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    top: 280px;
+    background-color: #2F303A;
+  
+  }
+  .classes{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    top: 350px;
+    background-color: #2F303A;
+  
+  }
+  
+@media screen and (max-width: 1140px){
+  .profile-name{
+    display: none;
+  }
+}
+@media screen and (max-width: 1000px){
+
+#col-2 {
+
+  top:2.1cm;
+
+}}
+
+@media screen and (max-width: 840px){
+  .button-name{
+    position: relative;
+    font-size: 18px;
+    bottom: 10px;
+    left: 100px;
+    color: #FFFFFF;
+  }
+}
+@media screen and (max-width: 840px){
+  .button-name{
+    font-size: 14.5px;
+    left: 100px;
+  }
+}
+@media screen and (max-width: 725px){
+ 
+.button-icon{
+
+  left: 2px;
+  top:20px;
+  align-content: center;
+}
+.button-name{
+  font-size: 14px;
+  left: 50px;
+}
+
+}
+@media screen and (max-width: 555px){
+
+.button-name{
+  display: none;
+}
+
+.button-icon{
+  /* position: relative; */
+  left: 37px;
+  top:20px;
+  align-content: center;
+}
+}

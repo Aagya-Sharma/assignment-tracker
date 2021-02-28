@@ -1,0 +1,172 @@
+html
+{
+overflow: hidden;
+}
+body{
+    margin: 0;
+    color: white;
+    background-color:  #2F303A;
+  
+}
+.assign-main li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+.assign-body{
+    list-style: none;
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 30px;
+    
+}
+.assign-head{
+    font-size: 45px;
+    font-weight: normal;
+    font-family: Helvetica, Arial, sans-serif;
+}  
+.AddNew{
+
+    margin-left: 720px;
+    width: 80px;
+    padding: 13px;
+    font-size: 17px;
+    border:3px solid rgb(207, 204, 204);
+    border-radius: 10px;
+    background-color: #1A1A2E;
+
+}
+.delete{
+    background: #227EC0;
+    color: #FFFCFC;
+
+    padding: 10px;
+    border: 1pxsolid#ccc;
+    font-weight: normal;
+    font-size: 17px;
+    font-family: Helvetica, Arial, sans-serif;
+    border-radius: 10px;
+    margin-left: 700px;
+}
+
+hr{
+    margin-right:600px;
+    width:1000px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width: 1200px){
+    .AddNew{
+        padding: 10px;
+        border: 1pxsolid#ccc;
+        border-radius: 10px;
+        font-weight: normal;
+        font-size: 22px;
+        margin-left: 600px;
+    
+    }
+    hr{
+        margin-right:900px;
+        width:700px;
+    }
+    .assign-head{
+        font-size: 40px;
+    }  
+
+}
+@media screen and (max-width: 1067px){
+    .AddNew{
+        padding: 10px;
+        border: 1pxsolid#ccc;
+        border-radius: 10px;
+        font-weight: normal;
+        font-size: 22px;
+        margin-left: 500px;
+    
+    }
+    hr{
+        margin-right:900px;
+        width:600px;
+    }
+    .assign-head{
+        font-size: 38px;
+    }  
+}
+@media screen and (max-width: 950px){
+    .AddNew{
+        padding: 10px;
+        border: 1pxsolid#ccc;
+        border-radius: 10px;
+        font-weight: normal;
+        font-size: 20px;
+        margin-left: 400px;
+    
+    }
+    hr{
+        margin-right:900px;
+        width:500px;
+    }
+    .assign-head{
+        font-size: 35px;
+    }  
+
+}
+@media screen and (max-width: 800px){
+    .AddNew{
+        padding: 10px;
+        border: 1pxsolid#ccc;
+        border-radius: 10px;
+        font-weight: normal;
+        font-size: 18px;
+        margin-left: 300px;
+    
+    }
+    hr{
+        margin-right:900px;
+        width:350px;
+    }
+    .assign-head{
+        font-size: 30px;
+    }  
+
+}
+@media screen and (max-width: 600px){
+    .AddNew{
+        padding: 10px;
+        border: 1pxsolid#ccc;
+        border-radius: 10px;
+        font-weight: normal;
+        font-size: 15px;
+        margin-left: 200px;
+    
+    }
+    hr{
+        margin-right:900px;
+        width:250px;
+    }
+    .assign-head{
+        font-size: 30px;
+    }  
+
+}
+@media screen and (max-width: 470px){
+    .AddNew{
+        padding: 8px;
+        border: 1pxsolid#ccc;
+        border-radius: 8px;
+        font-weight: normal;
+        font-size: 14px;
+        margin-left: 80px;
+    
+    }
+    hr{
+        margin-right:1000px;
+        width:140px;
+    }
+    .assign-head{
+        font-size: 20px;
+    }  
+
+}

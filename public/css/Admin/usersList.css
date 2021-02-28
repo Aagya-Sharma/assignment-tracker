@@ -1,0 +1,62 @@
+html
+{
+overflow: hidden;
+}
+body{
+    margin: 0;
+    color: white;
+    background-color:  #2F303A;
+  
+}
+.assign-head{
+    list-style: none;
+  font-size: 45px;
+  font-weight: normal;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.assign-main li
+{
+list-style: none;
+display: inline-block;
+margin-top: 20px;
+}
+.assignment-detail-body li{
+    list-style: none;
+
+    margin-left: 9px;
+    font-size: 23px;
+    margin-top: 30px;
+  }
+  table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+  }
+  table{
+    margin-left:10%;
+    width:50%;
+  }
+  input[type=submit]{
+    width: 80px;
+    padding: 8px;
+    font-size: 17px;
+    color: white;
+    border:3px solid rgb(207, 204, 204);
+    background-color: #1A1A2E;
+    border-radius: 10px;
+}
+ select{
+width: 120px;
+padding: 12px;
+margin:10px;
+border: 1px solid #ccc;
+border-radius: 7px;
+resize: vertical;
+/* display: block; */
+}
+  @media screen and (max-width:625px){
+
+    .assign-head{
+    font-size: 25px;
+    }
+ 
+  }

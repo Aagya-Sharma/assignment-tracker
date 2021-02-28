@@ -1,0 +1,522 @@
+html
+{
+overflow: hidden;
+font-family: Helvetica, Arial, sans-serif;
+
+}
+body{
+    margin: 0;
+    color: #1A1A2E;
+    background-color:  #2F303A;
+    
+  
+}
+.works{
+  text-decoration: underline;
+  margin-left:40px; 
+  color:black;
+  
+}
+.gg-arrow-left {
+  margin-left: 20px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs,1));
+  width: 22px;
+  height: 22px
+ }
+ 
+ .gg-arrow-left::after,
+ .gg-arrow-left::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  left: 3px
+ }
+ 
+ .gg-arrow-left::after {
+  width: 8px;
+  height: 8px;
+  border-bottom: 2px solid;
+  border-left: 3px solid;
+  transform: rotate(45deg);
+  bottom: 7px;
+  color: #000000;
+ }
+ 
+ .gg-arrow-left::before {
+  width: 16px;
+  height: 2px;
+  bottom: 10px;
+  background: currentColor;
+  color: #000000;
+
+ } 
+
+.assignment-detail-body{
+    list-style: none;
+    margin-left: 9px;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  .assign-submit{
+    width: 80px;
+    background-color: #1A1A2E;
+    padding: 12px;
+    margin:10px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    resize: vertical;
+    margin-left: 40px;
+    margin-top: 10px;
+    color:white;
+    /* display: block; */
+    } 
+
+  .attach{
+    margin-left: 40px;
+    font-size: 23px;
+
+  }
+  .attachs{
+    margin-left: 40px;
+    font-size: 23px;
+  }
+  .work{
+    margin-right: 900px;
+    margin-left: 50px;
+    border-radius: 4px;
+    border-color: black;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  .resource-head{
+  left: 300px;
+   top: 0px;
+  
+}
+  iframe{
+  position: absolute;
+  bottom: 25px;
+  border-radius: 20px;
+  width:500px; 
+  height:700px;
+  margin-top:0px;
+  margin-left:700px;
+  top: 130px;
+  background: #171E23;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
+  text-align: center; 
+  }
+   .resource-head{
+      position: absolute;
+    left: 260px;
+    right: 94px;
+    top: 130px;
+    bottom: 25px;
+  }
+  .file{
+    margin-left: 50px;
+  }
+  .assign-head{
+      list-style: none;
+    font-size: 45px;
+    font-weight: normal;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  .assign-main li
+{
+  list-style: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+input[type=file]{
+  margin-left:40px;
+  font-size: 13px;
+}
+.iframesec{
+  margin-left: auto;
+}
+@media screen and (max-width: 1270px){
+
+iframe{
+  bottom: 25px;
+  border-radius: 20px;
+  width:400px; 
+  height:700px;
+  margin-top:0px;
+  margin-left:450px;
+}
+.assign-head{
+font-size: 43px;
+}
+.assignment-detail-body{
+  margin-left: 9px;
+  font-size: 20px;
+}
+.attach{
+  margin-left: 40px;
+  font-size: 20px;
+}
+.attachs{
+  margin-left: 40px;
+  font-size: 20px;
+}
+.assign-submit{
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+}
+@media screen and (max-width: 1205px){
+
+  iframe{
+    width:400px; 
+  }
+  .assign-head{
+    font-size: 40px;
+    }
+    .assignment-detail-body{
+      margin-left: 9px;
+      font-size: 18px;
+    }
+    .attach{
+      margin-left: 40px;
+      font-size: 19px;
+    }
+    .attachs{
+      margin-left: 40px;
+      font-size: 19px;
+    }
+    input[type=file]{
+      margin-left:40px;
+    }
+  }
+  @media screen and (max-width: 1150px){
+
+    iframe{
+      width:400px; 
+      height:600px;
+       margin-left:450px;
+
+
+    }
+    .assign-head{
+      font-size: 38px;
+      }
+      .assignment-detail-body{
+        margin-left: 9px;
+        font-size: 16px;
+      }
+      .attach{
+        margin-left: 40px;
+        font-size: 19px;
+      }
+      input[type=file]{
+        margin-left:50px;
+        font-size: 13px;
+      }
+    }
+    @media screen and (max-width: 1150px){
+
+      iframe{
+        width:410px; 
+        height:600px;
+        margin-left:350px;
+  
+      }
+      .assign-head{
+        font-size: 36px;
+        }
+        .assignment-detail-body{
+          margin-left: 9px;
+          font-size: 16px;
+        }
+        .attach{
+          margin-left: 50px;
+          font-size: 17px;
+        }
+        .attachs{
+          margin-left: 50px;
+          font-size: 17px;
+        }
+        input[type=file]{
+          margin-left:30px;
+          font-size: 12px;
+        }
+    }
+    @media screen and (max-width: 1025px){
+
+      iframe{
+        width:380px; 
+        height:600px;
+        margin-left:320px;
+  
+      }
+      .assign-head{
+        font-size: 32px;
+        }
+        .assignment-detail-body{
+          margin-left: 9px;
+          font-size: 16px;
+        }
+        .attach{
+          margin-left: 40px;
+          font-size: 17px;
+        }
+        .attachs{
+          margin-left: 40px;
+          font-size: 17px;
+        }
+        input[type=file]{
+          margin-left:30px;
+          font-size: 12px;
+        }
+    }
+    @media screen and (max-width: 940px){
+
+      iframe{
+        width:350px; 
+        height:600px;
+        margin-left:300px;
+      }
+      .assign-head
+      {
+        font-size: 30px;
+        }
+        .assignment-detail-body{
+          margin-left: 9px;
+          font-size: 16px;
+        }
+        .attach{
+          margin-left: 40px;
+          font-size: 17px;
+        }
+        input[type=file]{
+          margin-left:30px;
+          font-size: 12px;
+        }
+    }
+    @media screen and (max-width: 865px){
+
+      iframe{
+        width:300px; 
+        height:600px;
+        margin-left:270px;
+  
+      }
+      .assign-head{
+        font-size: 28px;
+        }
+        .assignment-detail-body{
+          margin-left: 9px;
+          font-size: 16px;
+        }
+        .attach{
+          margin-left: 40px;
+          font-size: 16px;
+        }
+        .attachs{
+          margin-left: 40px;
+          font-size: 16px;
+        }
+        input[type=file]{
+          margin-left:30px;
+          font-size: 12px;
+        }
+    }
+    @media screen and (max-width: 780px){
+
+      iframe{
+        width:270px; 
+        height:600px;
+        margin-left:250px;
+  
+      }
+      .assign-head{
+        font-size: 28px;
+        }
+        .assignment-detail-body{
+          margin-left: 9px;
+          font-size: 16px;
+        }
+        .attach{
+          margin-left: 40px;
+          font-size: 16px;
+        }
+        input[type=file]{
+          margin-left:20px;
+          font-size: 10px;
+        }
+    }
+    @media screen and (max-width: 700px){
+
+      iframe{
+        width:250px; 
+        height:600px;
+        margin-left:250px;
+  
+      }
+      .assign-head{
+        font-size: 28px;
+        }
+        .assignment-detail-body{
+          margin-left: 9px;
+          font-size: 16px;
+        }
+        .attach{
+          margin-left: 40px;
+          font-size: 16px;
+        }
+    }
+    @media screen and (max-width: 680px){
+
+      iframe{
+        width:210px; 
+        height:450px;
+        margin-left:250px;
+  
+      }
+      .assign-head{
+        font-size: 28px;
+        }
+        .assignment-detail-body{
+          margin-left: 9px;
+          font-size: 16px;
+        }
+        .attach{
+          margin-left: 40px;
+          font-size: 16px;
+        }
+    }
+    @media screen and (max-width: 625px){
+
+      iframe{
+        width:190px; 
+        height:400px;
+        margin-left:230px;
+  
+      }
+      .assign-head
+      {
+        font-size: 28px;
+        margin-left: 0px;
+        }
+        .assignment-detail-body{
+          margin-left: 9px;
+          font-size: 16px;
+        }
+        .attach{
+          margin-left: 40px;
+          font-size: 16px;
+        }
+    }
+    @media screen and (max-width: 625px){
+
+      iframe{
+        width:190px; 
+        height:400px;
+        margin-left:220px;
+  
+      }
+      .assign-head{
+        font-size: 28px;
+        }
+        .assignment-detail-body{
+          margin-left: 9px;
+          font-size: 16px;
+        }
+        .attach{
+          margin-left: 40px;
+          font-size: 16px;
+        }
+    }
+    @media screen and (max-width: 565px)
+    {
+    input[type=file]{
+      margin-left:17px;
+      font-size: 10px;
+    }
+    iframe{
+      height: 250px;
+      margin-top: 100px;
+      margin-left: 40px;
+      width: 280px;
+    }
+    .attach{
+      margin-left: 40px;
+      font-size: 16px;
+      margin-top: 330px;
+    }
+
+  
+  }
+  @media screen and (max-width: 565px)
+  {
+  input[type=file]{
+    margin-left:17px;
+    font-size: 10px;
+  }
+  iframe{
+    height: 250px;
+    margin-top: 100px;
+    margin-left: 40px;
+    width: 250px;
+  }
+  .attach{
+    margin-left: 40px;
+    font-size: 16px;
+    margin-top: 330px;
+  }
+
+
+}
+@media screen and (max-width: 440px)
+{
+input[type=file]{
+  margin-left:17px;
+  font-size: 10px;
+}
+iframe{
+  height: 250px;
+  margin-top: 100px;
+  margin-left: 40px;
+  width: 210px;
+}
+.attach{
+  margin-left: 40px;
+  font-size: 16px;
+  margin-top: 330px;
+}
+
+
+}
+@media screen and (max-width: 370px)
+{
+input[type=file]{
+  margin-left:17px;
+  font-size: 10px;
+}
+iframe{
+  height: 250px;
+  margin-top: 100px;
+  margin-left: 40px;
+  width: 180px;
+}
+.attach{
+  margin-left: 40px;
+  font-size: 16px;
+  margin-top: 330px;
+}
+
+
+}
+

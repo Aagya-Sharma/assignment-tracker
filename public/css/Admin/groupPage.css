@@ -1,0 +1,497 @@
+html
+{
+overflow: hidden;
+}
+body{
+    margin: 0;
+    color: white;
+    background-color: #2F303A;
+}
+header{
+  
+     height: 2cm  ;   
+     text-align: center;
+     padding:5px;
+     background: #1A1A2E;
+     color: #FFFFFF;
+     
+     
+     margin: 0%;
+     width: 100%;
+     
+  }
+.main-nav{
+   list-style: none;
+   text-align: center;
+}
+.img{
+    width: 20%;
+    float: left;
+    background-color: #1A1A2E;
+}
+#col-1 {
+  position: fixed;
+    width: 25%;
+    left:0;
+    height: 100%;
+    background-color: #2F303A;
+
+  
+  }
+  #col-2 {
+    position:fixed;
+    width: 75%;
+    top:2.25cm;
+    left:25%;
+    height: 100%;
+    background-color:#cbcbcb;
+  
+  
+  }
+
+  .profile-photo{
+    position:relative;
+    top:35px;
+    left:15px;
+    width:176px;
+    height:176px;
+    overflow:hidden;
+    border-radius:50%;
+
+}
+.profile-photo img{
+    width:100%;
+    height:auto;
+}
+.profile-name{
+  position: absolute;
+  width: 250px;
+  height: 30px;
+  left: 200px;
+  top: 105px;
+  
+  font-family: Roboto;
+  
+  font-size: 25px;
+  color: #FFFFFF;
+}
+a{
+    text-decoration:none;
+}
+.rec-box{
+  position: absolute;
+  left: 130px;
+  right: 80px;
+  top: 37px;
+  bottom: 147px;
+  background:black;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
+  }
+  .top-box
+{
+  height: 43px;
+background:white;
+border: 1px solid #1A1A2E;
+box-sizing:border-box;
+border-radius: 5px;
+width: 38vw;
+}
+.add-assignment{ 
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 56px;
+  /* text-align: left; */
+  color:#1A1A2E;
+  margin-left: 0px;
+
+}
+  .form{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  line-height: 42px;
+  margin-left: 140px;
+  color:#1A1A2E;
+  }
+  .submit-button
+  {
+    text-align: center;
+    line-height: 30px;
+    margin-top: 3vh;
+    margin-left: 15vw;
+    width: 10vw;
+    color: #FFFFFF;
+    padding: 13px;
+    font-size: 20px;
+    border:3px solid rgb(207, 204, 204);
+    background-color: #1A1A2E;
+    /* background-color: #00BFFF; */
+    border-radius: 10px;
+    }
+    .submit-button:hover{
+      color:#1A1A2E;
+    background-color: white;
+    border:3px solid #1A1A2E;
+
+    }
+  
+
+   
+    .first{
+      display: flex;
+      width:90%;
+      margin: auto;
+      justify-content: space-between;
+    }
+    .second{
+    font-size: 35px;
+    width: 150px;
+    padding: 13px;
+    font-size: 17px;
+    border:3px solid rgb(207, 204, 204);
+    background-color: #1A1A2E;
+    color:white;
+    /* background-color: #00BFFF; */
+
+    border-radius: 10px;
+}
+
+    
+    @media screen and (max-width: 1390px){
+      .top-box{
+        width: 34vw;
+      }
+      .form{
+        margin-left: 135px;
+      }
+      .submit-button
+      {
+        border-radius: 10px;
+        font-size: 29px;
+        line-height: 30px;
+        margin-top: 3vh;
+        margin-left: 10vw;
+        width: 10vw;
+      }
+      .add-assignment{ 
+        font-size: 30px;
+      }
+
+    }
+    @media screen and (max-width: 1084px){
+      .top-box{
+        width: 27vw;
+      }  
+      .form{
+        margin-left: 135px;
+        font-size: 22px;
+
+      }
+      .add-assignment{ 
+        font-size: 28px;
+      }
+
+    
+    }
+    @media screen and (max-width: 925px){
+      .top-box{
+        width: 25vw;
+      }  
+     .form{
+        margin-left: 115px;
+        font-size: 20px;
+
+      }
+      .add-assignment{ 
+        font-size: 26px;
+      }
+      .submit-button
+      {
+        border-radius: 10px;
+        font-size: 21px;
+        line-height: 30px;
+        margin-top: 0vh;
+        margin-left: 7vw;
+        width: 10vw;
+      }
+
+    
+    }
+    @media screen and (max-width: 875px){
+      .top-box{
+        width: 22vw;
+      }  
+     .form{
+        margin-left: 110px;
+        font-size: 19px;
+
+      }
+      .submit-button
+      {
+        border-radius: 10px;
+        font-size: 21px;
+        line-height: 30px;
+        margin-top: 0vh;
+        margin-left: 6vw;
+        width: 10vw;
+      }
+      .add-assignment{ 
+        font-size: 25px;
+      }
+
+    }
+    @media screen and (max-width: 775px){
+      .top-box
+      {
+        width: 35vw;
+      }  
+     .form
+      {
+        margin-left: 90px;
+        font-size: 17px;
+
+      }
+      .add-assignment
+      { 
+        font-size: 24px;
+        /* margin-left: 30px; */
+      }
+      .rec-box
+      {
+        left: 30px;
+        right: 40px;
+        top: 37px;
+        bottom: 147px;
+      }
+      .submit-button
+      {
+        border-radius: 10px;
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 0vh;
+        margin-left: 13vw;
+        width: 10vw;
+      }
+      .second{
+        width: 130px;
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+    }
+    @media screen and (max-width: 750px){
+      .top-box{
+        width: 37vw;
+      }  
+     .form{
+        margin-left: 70px;
+        font-size: 17px;
+
+      }
+      .add-assignment{ 
+        font-size: 24px;
+        margin-left: 20px;
+      }
+      .submit-button
+      {
+        border-radius: 10px;
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 0vh;
+        margin-left: 13vw;
+        width: 15vw;
+      }
+    }
+    @media screen and (max-width: 670px){
+      .top-box{
+        width: 37vw;
+      }  
+     .form{
+        margin-left: 60px;
+        font-size: 17px;
+
+      }
+      .add-assignment{ 
+        font-size: 20px;
+        margin-left: 20px;
+
+        
+
+      }
+      .submit-button
+      {
+        border-radius: 10px;
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 0vh;
+        margin-left: 13vw;
+        width: 10vw;
+      }
+    }
+    @media screen and (max-width: 660px){
+      .top-box{
+        width: 37vw;
+      }  
+     .form{
+        margin-left: 40px;
+        font-size: 15px;
+
+      }
+      .add-assignment{ 
+        font-size: 20px;
+        margin-left: 20px;
+        
+        
+
+      }
+      .submit-button
+      {
+        border-radius: 10px;
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 0vh;
+        margin-left: 13vw;
+        width: 15vw;
+      }
+    }
+    @media screen and (max-width: 550px){
+      .top-box{
+        width: 37vw;
+      }  
+     .form{
+        margin-left: 35px;
+        font-size: 13px;
+
+      }
+      .add-assignment{ 
+        font-size: 16px;
+        margin-left: 20px;
+        
+        
+
+      }
+      .submit-button
+      {
+        border-radius: 10px;
+        font-size: 16px;
+        line-height: 30px;
+        margin-top: 0vh;
+        margin-left: 6vw;
+        width: 15vw;
+      }
+    }
+    @media screen and (max-width: 540px){
+      .top-box{
+        width: 37vw;
+      }  
+     .form{
+        margin-left: 30px;
+        font-size: 15px;
+
+      }
+      .add-assignment{ 
+        font-size: 16px;
+        margin-left: 0px;
+      }
+      .submit-button
+      {
+        border-radius: 10px;
+        font-size: 13px;
+        line-height: 18px;
+        margin-top: 0vh;
+        margin-left: 6vw;
+        width: 15vw;
+      }
+      .rec-box{
+        left: 0px;
+        right: 40px;
+        top: 37px;
+        bottom: 147px;
+        }
+        #col-2 {
+          position:fixed;
+          width: 75%;
+          top:2.25cm;
+          left:25%;
+          height: 100%;
+          color:black;
+
+        }
+        .second{
+          width: 110px;
+          padding: 9px;
+          font-size: 14px;
+          border-radius: 10px;
+      }
+    }
+    @media screen and (max-width: 400px){
+      .top-box{
+        width: 37vw;
+      }  
+     .form{
+        margin-left: 30px;
+        font-size: 15px;
+
+      }
+      .add-assignment{ 
+        font-size: 16px;
+        margin-left: 0px;
+      }
+      .submit-button
+      {
+        border-radius: 10px;
+        font-size: 13px;
+        line-height: 12px;
+        margin-top: 0vh;
+        margin-left: 6vw;
+        width: 20vw;
+      }
+      .rec-box{
+        left: 0px;
+        right: 40px;
+        top: 37px;
+        bottom: 147px;
+        }
+        #col-2 {
+          position:fixed;
+          width: 75%;
+          top:2.25cm;
+          left:25%;
+          height: 100%;
+          color:black;
+
+        }
+        .second{
+          width: 110px;
+          padding: 9px;
+          font-size: 16px;
+          border-radius: 10px;
+      }
+    }
+    @media screen and (max-width: 400px){
+      
+      .add-assignment{ 
+        font-size: 16px;
+        margin-left: 0px;
+      }
+     
+        #col-2 {
+          position:fixed;
+          width: 75%;
+          top:2.25cm;
+          left:25%;
+          height: 100%;
+          color:black;
+
+        }
+        .second{
+          width: 90px;
+          padding: 9px;
+          font-size: 13px;
+          border-radius: 10px;
+      }
+    }

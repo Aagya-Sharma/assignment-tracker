@@ -1,0 +1,77 @@
+html
+{
+overflow-x: hidden;
+}
+body{
+    margin: 0;
+    color: #1A1A2E;
+    background-color:  #2F303A;
+
+}
+
+.logout{
+  color: #FFFFFF;
+  float: left;
+
+}
+h2{
+    margin-left: 5%;
+}
+.form{
+    margin-left: 5%;
+    
+
+}
+input[type=text],[type=date],[type=time]{
+    width:500px;
+    margin:8px;
+    padding: 12px;
+}
+button{
+    margin:9px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #227EC0;
+    color: #FFFFFF;
+} 
+input[type=file]{
+    margin:7px;
+  
+    background: #227EC0;
+}
+.assigned{
+  margin-left: 5%;
+}
+
+hr{
+    width: 500px;
+    margin-left: 5%;
+}
+select{
+    width: 500px;
+    margin-left: 5%; 
+    padding: 10px;
+}
+table{
+  margin-left:5%;
+}
+a{
+  text-decoration: none;
+  color: white;
+  
+}
+.assigned{
+  margin-left: 5%;
+}
+.form{
+  margin-left:5%;
+}
+.details{
+  margin-left:5%;
+
+  height: 100%;
+  
+
+}
+
+
